@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "928196407677",
+    "project_id": "miso-a546d",
+    "storage_bucket": "miso-a546d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928196407677:android:eeeea8cfa42bf98d681c14",
+        "android_client_info": {
+          "package_name": "com.example.grocery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVa71YxtPj_2RnlJE-sBe0jiogL-C2jX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
