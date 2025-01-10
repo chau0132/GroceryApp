@@ -33,6 +33,16 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
 
+    - name: Generate Gradle Wrapper
+      run: |
+        if [ ! -f "./gradlew" ]; then
+          echo "Gradle wrapper not found, generating..."
+          gradle wrapper
+          chmod +x ./gradlew
+        else
+          echo "Gradle wrapper already exists."
+        fi
+
     - name: Make Gradle wrapper executable
       run: chmod +x ./gradlew
 
